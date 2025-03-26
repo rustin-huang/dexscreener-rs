@@ -1,0 +1,26 @@
+[package]
+name = "dexscreener-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Rust client for the DexScreener API"
+license = "MIT"
+homepage = "https://github.com/rustin-huang/dexscreener-rs"
+repository = "https://github.com/rustin-huang/dexscreener-rs"
+readme = "README.md"
+keywords = ["defi", "dexscreener", "cryptocurrency", "api"]
+categories = ["api-bindings", "web-programming::http-client"]
+authors = ["Rustin Huang <rustin_huang@tutamail.com>"]
+
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+chrono = { version = "0.4.40", features = ["serde"] }
+
+
+[dev-dependencies]
+mockito = "1"
+tokio = { version = "1", features = ["full", "test-util"] }

@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file. See [conven
 ---
 ## [unreleased]
 
+## [0.1.1](https://github.com/rustin-huang/dexscreener-rs/compare/v0.1.0...v0.1.1) - 2025-03-26
+
+### Other
+
+- add CHANGELOG.md
+- init project
+
 ### Miscellaneous Chores
 
 - init project - ([27723ff](https://github.com/rustin-huang/dexscreener-rs.git/commit/27723ffdb3141e467f649bffcbede38bd54616eb)) - xblzbjs
